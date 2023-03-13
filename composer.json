@@ -8,6 +8,7 @@
     "process-timeout": 0
   },
   "require": {
+    "norman-huth/helpers-collection-pimcore": "^1.0",
     "pimcore/pimcore": "^10.5"
   },
   "require-dev": {
