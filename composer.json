@@ -8,6 +8,8 @@
     "process-timeout": 0
   },
   "require": {
+    "php": "^8.0",
+    "norman-huth/country-list": "^1.0",
     "norman-huth/helpers-collection-pimcore": "^1.0",
     "pimcore/pimcore": "^10.5"
   },

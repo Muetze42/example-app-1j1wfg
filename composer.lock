@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5537139b82d0e3d30865f6dab2d9c0a2",
+    "content-hash": "1a399267fcb6fb1e40878308e3e13caa",
     "packages": [
         {
             "name": "amnuts/opcache-gui",
@@ -5221,6 +5221,46 @@
                 "source": "https://github.com/nette/utils/tree/v4.0.0"
             },
             "time": "2023-02-02T10:41:53+00:00"
+        },
+        {
+            "name": "norman-huth/country-list",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Muetze42/country-list.git",
+                "reference": "1bab4885e913783fd90020699781401ed90b66c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Muetze42/country-list/zipball/1bab4885e913783fd90020699781401ed90b66c5",
+                "reference": "1bab4885e913783fd90020699781401ed90b66c5",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NormanHuth\\CountryList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Saša Stamenković",
+                    "email": "umpirsky@gmail.com"
+                },
+                {
+                    "name": "Norman Huth",
+                    "homepage": "https://huth.it"
+                }
+            ],
+            "description": "List of all countries with names and ISO 3166-1 codes in all languages.",
+            "support": {
+                "source": "https://github.com/Muetze42/country-list/tree/1.0.0"
+            },
+            "time": "2023-03-10T23:06:51+00:00"
         },
         {
             "name": "norman-huth/helpers-collection-php",

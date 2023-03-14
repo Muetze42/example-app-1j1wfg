@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "ab16ba53-5299-49fc-843f-864dc67d2da6",
+		"name": "Example App 1j1wfg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7458133"
+	},
+	"item": [
+		{
+			"name": "Movies Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/:language/movies?page=1",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						":language",
+						"movies"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1",
+							"description": "Optional"
+						}
+					],
+					"variable": [
+						{
+							"key": "language",
+							"value": "de",
+							"description": "de or en"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FilmDistributor Index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/:language/distributors",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						":language",
+						"distributors"
+					],
+					"variable": [
+						{
+							"key": "language",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FilmDistributor Show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/api/:language/distributors/:distributorId",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"api",
+						":language",
+						"distributors",
+						":distributorId"
+					],
+					"variable": [
+						{
+							"key": "language",
+							"value": "de"
+						},
+						{
+							"key": "distributorId",
+							"value": "339",
+							"description": "de or en"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "https://localhost",
+			"type": "string"
+		}
+	]
+}
